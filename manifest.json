@@ -1,0 +1,15 @@
+{
+    "versao":  "0.12.0",
+    "publicado_em":  "2026-11-16T12:59:42Z",
+    "notas":  "- **Atualização pela internet**: ao abrir, o Loja PDV verifica se há versão nova e pergunta se quer atualizar.\n  Aceitando, ele faz um backup do banco, baixa a versão, troca os arquivos e abre de novo, sem instalador e sem\n  senha de administrador. Sem internet, nada muda: o programa abre normalmente.\n- **Sistema \u003e Verificar atualização**: consulta na hora.\n- A versão instalada aparece no título da janela.\n- Novidades das versões 0.10.1 a 0.11.1, para quem vem de antes: botões na tela de venda para cada tecla de\n  atalho; pagamento em que escolher a forma já libera o Concluir; comprovante mostrado na tela antes de imprimir;\n  cliente escolhido desde o início da venda (F9); tela Sistema \u003e Dados da loja para o cabeçalho do comprovante.",
+    "pacote":  {
+                   "url":  "https://github.com/paulokadesh/loja-pdv-download/releases/download/v0.12.0/LojaPDV_atualizacao_0.12.0.zip",
+                   "sha256":  "3e1b8790e7e1d2263be8a94a1131ce199a99c7eae3f50a8ca8a6cb9db48f774b",
+                   "tamanho":  3396591
+               },
+    "instalador":  {
+                       "url":  "https://github.com/paulokadesh/loja-pdv-download/releases/download/v0.12.0/LojaPDV_Setup_0.12.0.exe",
+                       "sha256":  "52237ad9e0de241db8b9cf7d99508882e851957fe3650d0e5a70419aae033f4c",
+                       "tamanho":  14648956
+                   }
+}
