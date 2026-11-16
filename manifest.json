@@ -1,15 +1,15 @@
 {
-    "versao":  "0.12.1",
-    "publicado_em":  "2026-11-16T13:21:12Z",
-    "notas":  "- Rodapé do comprovante: o comprovante deixa de sair com \"Trocas em até 30 dias com este comprovante e etiqueta na peça\". Esse texto vinha de exemplo na instalação e prometia uma política de troca que a loja não escolheu. Ao abrir esta versão, ele é tirado uma única vez; se a loja já escreveu a própria mensagem, ela fica como está. A mensagem do fim do comprovante agora é opcional: vazia, não imprime nada. Para escrever a política da loja: Sistema \u003e Dados da loja.",
+    "versao":  "0.13.0",
+    "publicado_em":  "2026-11-16T14:25:55Z",
+    "notas":  "- Módulo Financeiro por assinatura: crediário e contas a receber passam a ser um módulo à parte. Sem a licença, a forma de pagamento Crediário não aparece na venda e o menu Financeiro abre a tela de licença. Todo o resto (vendas, estoque, caixa, trocas, relatórios) continua igual. Quem já usa o crediário precisa pedir a chave ao suporte: sem ela, o crediário e as contas a receber ficam bloqueados.\n- Sistema \u003e Licença do módulo Financeiro: mostra a situação, o código da loja (é ele que se informa ao suporte para receber a chave) e um campo para colar a chave recebida. Não precisa de internet.\n- Assinatura vencida: o módulo segue liberado por 5 dias, com aviso ao abrir o programa. Depois disso o crediário novo é bloqueado, mas consultar e receber as parcelas já lançadas continua funcionando.",
     "pacote":  {
-                   "url":  "https://github.com/paulokadesh/loja-pdv-download/releases/download/v0.12.1/LojaPDV_atualizacao_0.12.1.zip",
-                   "sha256":  "1e3d1756dc23a24b19e7fd78a095c282f74bf58bb489d70a83a62fc90b6758b7",
-                   "tamanho":  3397032
+                   "url":  "https://github.com/paulokadesh/loja-pdv-download/releases/download/v0.13.0/LojaPDV_atualizacao_0.13.0.zip",
+                   "sha256":  "0f21ea16028e75cfafcaf25e7d95302eaea4c06326465b49fad2e60748a16ca4",
+                   "tamanho":  3420668
                },
     "instalador":  {
-                       "url":  "https://github.com/paulokadesh/loja-pdv-download/releases/download/v0.12.1/LojaPDV_Setup_0.12.1.exe",
-                       "sha256":  "7ab446a180adf1f50e3b95d15510aafcfa808c8caf3d2ca43897d6d6a9738b82",
-                       "tamanho":  14650275
+                       "url":  "https://github.com/paulokadesh/loja-pdv-download/releases/download/v0.13.0/LojaPDV_Setup_0.13.0.exe",
+                       "sha256":  "ebcf74a5a361bd7ff580a6a69c2a3aa6e5bde086bdc133a84bd700e38ebbd5a8",
+                       "tamanho":  14722956
                    }
 }
